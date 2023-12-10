@@ -1,0 +1,15 @@
+<!-- popup_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/option1"
+        android:title="SPUR" />
+    <item
+        android:id="@+id/option2"
+        android:title="BLUR" />
+    <item
+        android:id="@+id/option3"
+        android:title="Option 3" />
+    <item
+        android:id="@+id/option4"
+        android:title="Option 4" />
+</menu>

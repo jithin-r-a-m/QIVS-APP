@@ -1,0 +1,4819 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/bctop" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="0dp"
+        app:srcCompat="@drawable/bglight" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="500dp"
+        android:layout_marginTop="0dp"
+        android:text="Toyota Kirloskar Motors"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="274dp"
+        android:layout_marginTop="41dp"
+        android:fontFamily="serif"
+        android:text="QUALITY INSPECTION VIRTUAL STATION"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_dialog_dialer" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="138dp"
+        android:text="Date : "
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="138dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="104dp"
+        android:text="TM   :"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="528dp"
+        android:layout_marginTop="127dp"
+        android:background="#00000000"
+        android:fontFamily="sans-serif"
+        android:text="RH / Q1 Station"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="175dp"
+        android:text="Time :"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="175dp"
+        android:text="Shift :"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="112dp"
+        android:text="Yellow"
+        android:textColor="@color/Yellow"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="90dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="215dp"
+        android:background="@drawable/darkk"
+        android:padding="6dp"
+        android:text="  BODY NO "
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bdy"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="215dp"
+        android:text=""
+        android:background="@drawable/lightt"
+        android:padding="6dp"
+        android:textColor="@color/Purple"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="500dp"
+        android:layout_marginTop="215dp"
+        android:background="@drawable/darkk"
+        android:padding="6dp"
+        android:text="    SUFFIX "
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/suff"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="627dp"
+        android:layout_marginTop="215dp"
+        android:text=""
+        android:background="@drawable/lightt"
+        android:padding="6dp"
+        android:textColor="@color/Purple"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="950dp"
+        android:layout_marginTop="215dp"
+        android:background="@drawable/darkk"
+        android:padding="6dp"
+        android:text="     MODEL "
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mod"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1077dp"
+        android:layout_marginTop="215dp"
+        android:text=""
+        android:background="@drawable/lightt"
+        android:padding="6dp"
+        android:textColor="@color/Purple"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="322dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/doorin"
+        tools:ignore="ContentDescription"
+        android:background="@drawable/gridstroke"/>
+
+    <!-- GridLayout for the grid overlay -->
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="322dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="20dp"
+        android:columnCount="6"
+        android:rowCount="5">
+        <!-- Add clickable ImageView items for each grid cell -->
+        <ImageView
+            android:id="@+id/cell1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="false"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <!-- Add more ImageView items for other grid cells -->
+        <!-- For example, another cell with a unique ID -->
+        <ImageView
+            android:id="@+id/cell2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell10"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell12"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell13"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell14"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell15"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell16"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell17"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell18"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell19"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell20"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell21"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/cell22"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell23"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell24"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell25"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell26"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell27"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell28"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell29"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell30"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell31"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell32"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell33"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell34"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell35"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell36"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell37"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell38"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell39"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell40"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell41"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell42"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell43"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell44"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell45"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell46"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell47"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell48"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell49"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell50"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell51"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell52"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell53"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cell54"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+
+        <!-- Add more ImageView items for other grid cells as needed -->
+
+    </GridLayout>
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="680dp"
+        android:text="CHECKED"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView12y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="618dp"
+        android:layout_marginTop="750dp"
+        android:background="@drawable/lightt"
+        android:text="  HOOD  "
+        android:textColor="@color/Purple"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="322dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="350dp"
+        android:src="@drawable/doorou"
+        tools:ignore="ContentDescription"
+        android:background="@drawable/gridstroke"/>
+
+    <!-- GridLayout for the grid overlay -->
+    <GridLayout
+        android:id="@+id/gridLayout2"
+        android:layout_width="322dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="350dp"
+        android:columnCount="6"
+        android:rowCount="5">
+        <!-- Add clickable ImageView items for each grid cell -->
+        <ImageView
+            android:id="@+id/cellt1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="false"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <!-- Add more ImageView items for other grid cells -->
+        <!-- For example, another cell with a unique ID -->
+        <ImageView
+            android:id="@+id/cellt2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt10"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt12"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt13"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt14"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt15"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt16"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt17"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt18"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt19"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt20"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt21"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/cellt22"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt23"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt24"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt25"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt26"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt27"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt28"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt29"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt30"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt31"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt32"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt33"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt34"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt35"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt36"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt37"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt38"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt39"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt40"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt41"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt42"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt43"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt44"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt45"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt46"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt47"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt48"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt49"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt50"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt51"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt52"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt53"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt54"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+
+        <!-- Add more ImageView items for other grid cells as needed -->
+
+    </GridLayout>
+    <CheckBox
+        android:id="@+id/checkBox44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="450dp"
+        android:layout_marginTop="680dp"
+        android:text="CHECKED"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="250dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="680dp"
+        android:src="@drawable/rdoorin"
+        tools:ignore="ContentDescription"
+        android:background="@drawable/gridstroke"/>
+
+    <!-- GridLayout for the grid overlay -->
+    <GridLayout
+        android:id="@+id/gridLayout3"
+        android:layout_width="250dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="680dp"
+        android:columnCount="6"
+        android:rowCount="5">
+        <!-- Add clickable ImageView items for each grid cell -->
+        <ImageView
+            android:id="@+id/cellr1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="false"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <!-- Add more ImageView items for other grid cells -->
+        <!-- For example, another cell with a unique ID -->
+        <ImageView
+            android:id="@+id/cellr2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr10"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr12"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr13"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr14"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr15"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr16"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr17"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr18"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr19"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr20"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr21"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/cellr22"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr23"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr24"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr25"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr26"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr27"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr28"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr29"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr30"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr31"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr32"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr33"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr34"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr35"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr36"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr37"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr38"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr39"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr40"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr41"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr42"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr43"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr44"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr45"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr46"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr47"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr48"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr49"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr50"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr51"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr52"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr53"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellr54"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+
+        <!-- Add more ImageView items for other grid cells as needed -->
+
+    </GridLayout>
+    <CheckBox
+        android:id="@+id/checkBox44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="750dp"
+        android:layout_marginTop="680dp"
+        android:text="CHECKED"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="330dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="940dp"
+        android:src="@drawable/rdoorou"
+        tools:ignore="ContentDescription"
+        android:background="@drawable/gridstroke"/>
+    <GridLayout
+        android:id="@+id/gridLayout4"
+        android:layout_width="330dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="940dp"
+        android:columnCount="6"
+        android:rowCount="5">
+        <!-- Add clickable ImageView items for each grid cell -->
+        <ImageView
+            android:id="@+id/cellrr1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="false"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <!-- Add more ImageView items for other grid cells -->
+        <!-- For example, another cell with a unique ID -->
+        <ImageView
+            android:id="@+id/cellrr2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr10"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr12"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr13"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr14"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr15"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr16"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr17"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr18"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr19"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr20"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr21"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/cellrr22"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr23"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr24"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr25"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr26"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr27"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr28"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr29"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr30"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr31"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr32"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr33"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr34"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr35"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr36"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr37"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr38"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr39"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr40"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr41"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr42"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr43"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr44"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr45"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr46"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr47"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr48"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr49"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr50"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr51"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr52"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr53"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellrr54"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+
+        <!-- Add more ImageView items for other grid cells as needed -->
+
+         </GridLayout>
+    <CheckBox
+        android:id="@+id/checkBox44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1050dp"
+        android:layout_marginTop="680dp"
+        android:text="CHECKED"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="322dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="800dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/back"
+        tools:ignore="ContentDescription"
+        android:background="@drawable/gridstroke"/>
+
+    <!-- GridLayout for the grid overlay -->
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="750dp"
+        android:background="@drawable/lightt"
+        android:text="  BACK FRAME  "
+        android:textColor="@color/Purple"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="322dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="800dp"
+        android:layout_marginLeft="100dp"
+        android:columnCount="6"
+        android:rowCount="5">
+        <!-- Add clickable ImageView items for each grid cell -->
+        <ImageView
+            android:id="@+id/celll1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="false"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <!-- Add more ImageView items for other grid cells -->
+        <!-- For example, another cell with a unique ID -->
+        <ImageView
+            android:id="@+id/celll2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll10"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll12"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll13"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll14"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll15"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll16"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll17"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll18"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll19"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll20"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll21"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/celll22"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll23"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll24"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll25"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll26"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll27"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll28"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll29"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll30"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll31"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll32"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll33"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll34"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll35"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll36"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll37"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll38"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll39"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll40"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll41"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll42"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll43"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll44"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll45"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll46"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll47"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll48"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll49"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll50"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll51"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll52"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll53"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celll54"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+
+        <!-- Add more ImageView items for other grid cells as needed -->
+
+    </GridLayout>
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="1100dp"
+        android:text="CHECKED"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+    <ImageView
+        android:id="@+id/imageViewr2"
+        android:layout_width="322dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="800dp"
+        android:layout_marginLeft="500dp"
+        android:src="@drawable/hood"
+        tools:ignore="ContentDescription"
+        android:background="@drawable/gridstroke"/>
+
+    <!-- GridLayout for the grid overlay -->
+    <GridLayout
+        android:id="@+id/gridLayoutr2"
+        android:layout_width="322dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="800dp"
+        android:layout_marginLeft="500dp"
+        android:columnCount="6"
+        android:rowCount="5">
+        <!-- Add clickable ImageView items for each grid cell -->
+        <ImageView
+            android:id="@+id/celllt1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="false"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <!-- Add more ImageView items for other grid cells -->
+        <!-- For example, another cell with a unique ID -->
+        <ImageView
+            android:id="@+id/celllt2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/cellt10"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt12"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt13"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt14"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt15"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt16"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt17"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt18"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt19"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt20"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt21"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/celllt22"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt23"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt24"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt25"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt26"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt27"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt28"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt29"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt30"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt31"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt32"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt33"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt34"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt35"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt36"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt37"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt38"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt39"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt40"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt41"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt42"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt43"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt44"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt45"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt46"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt47"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt48"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt49"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt50"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt51"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt52"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt53"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllt54"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+
+        <!-- Add more ImageView items for other grid cells as needed -->
+
+    </GridLayout>
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="611dp"
+        android:layout_marginTop="1100dp"
+        android:text="CHECKED"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+    <TextView
+        android:id="@+id/textView12y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1000dp"
+        android:layout_marginTop="750dp"
+        android:background="@drawable/lightt"
+        android:text="  FENDER  "
+        android:textColor="@color/Purple"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+    <ImageView
+        android:id="@+id/imageViewr3"
+        android:layout_width="250dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="800dp"
+        android:layout_marginLeft="920dp"
+        android:src="@drawable/rhfender"
+        tools:ignore="ContentDescription"
+        android:background="@drawable/gridstroke"/>
+
+    <!-- GridLayout for the grid overlay -->
+    <GridLayout
+        android:id="@+id/gridLayoutr3"
+        android:layout_width="250dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="800dp"
+        android:layout_marginLeft="920dp"
+        android:columnCount="6"
+        android:rowCount="5">
+        <!-- Add clickable ImageView items for each grid cell -->
+        <ImageView
+            android:id="@+id/celllr1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="false"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <!-- Add more ImageView items for other grid cells -->
+        <!-- For example, another cell with a unique ID -->
+        <ImageView
+            android:id="@+id/celllr2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr10"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr12"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr13"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr14"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr15"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr16"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr17"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr18"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr19"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr20"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr21"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/celllr22"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr23"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr24"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr25"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr26"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr27"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr28"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr29"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr30"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr31"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr32"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr33"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr34"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr35"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr36"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr37"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr38"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr39"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr40"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr41"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr42"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr43"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr44"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr45"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr46"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr47"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr48"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr49"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr50"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr51"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr52"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr53"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+        <ImageView
+            android:id="@+id/celllr54"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/cellborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onGridItemClick" />
+
+
+        <!-- Add more ImageView items for other grid cells as needed -->
+
+    </GridLayout>
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1000dp"
+        android:layout_marginTop="1100dp"
+        android:text="CHECKED"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+
+    <Button
+        android:id="@+id/row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="435dp"
+        android:layout_marginBottom="1200dp"
+        android:text="SAVE NEXT" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="307dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/Red" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="377dp"
+        android:layout_marginTop="352dp"
+        android:background="@drawable/lightt"
+        android:text="  FRONT DOOR EXTERIOR  "
+        android:textColor="@color/Purple"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="352dp"
+        android:background="@drawable/lightt"
+        android:text="  FRONT DOOR INTERIOR  "
+        android:textColor="@color/Purple"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="683dp"
+        android:layout_marginTop="352dp"
+        android:background="@drawable/lightt"
+        android:text="  REAR DOOR INTERIOR  "
+        android:textColor="@color/Purple"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView144"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="983dp"
+        android:layout_marginTop="352dp"
+        android:background="@drawable/lightt"
+        android:text="  REAR DOOR EXTERIOR  "
+        android:textColor="@color/Purple"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="414dp"
+        android:layout_marginBottom="8dp"
+        android:text="   Previous   " />
+    
+</RelativeLayout>
+</ScrollView>
